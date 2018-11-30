@@ -11,7 +11,80 @@
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <!--Barre de navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bonbon !</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Présentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nous trouver</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin de barre de navigation-->
+
+    <main class="container">
+        <section class="mt-5" id="citation">
+            <q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, dolore!</q>
+        </section>
+        <section class="mt-5" id="presentation">
+            <h2>A propos de bonbon !</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta temporibus esse ullam hic reprehenderit
+                voluptatum dignissimos debitis enim mollitia sed?</p>
+            <p>Ipsum, vel? A nobis quod aspernatur officiis mollitia quae et. Corrupti et dolore eligendi esse itaque
+                architecto harum quis culpa!</p>
+            <p>Illum quisquam laboriosam iusto, iste vel atque autem a fuga eveniet repudiandae id voluptatum, corrupti
+                similique cupiditate vitae voluptates optio!</p>
+        </section>
+        <section class="mt-5" id="produits">
+            <h2>Nos produits</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim dicta modi vero suscipit blanditiis
+                repellat exercitationem expedita eligendi alias totam?</p>
+            <p>Quod, sed. A est maxime nulla adipisci suscipit repellat sequi, quae quos totam consequatur animi vero
+                id harum cumque ducimus.</p>
+        </section>
+        <section class="mt-5" id="contact">
+            <h2>Nous trouver</h2>
+            <div class="row">
+                <div class="col-8">
+                    <!--google map-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.0251983073563!2d2.3644791159739476!3d48.87679617928934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e752fbebb65%3A0x2c2b65a37f07b13d!2s13+Rue+des+%C3%89cluses+Saint-Martin%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1543236935027"
+                        width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <strong>Nous situer au:</strong>
+                    <address>13 Rue des Ecluses Saint-Martin <br>75010, Paris<br>0810 75 75 75</address>
+                    <h3>Newsletter</h3>
+                    <strong>Abonnez vous à notre newsletter!</strong>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Adresse email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Je m'abonne</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer bg-light text-center py-4 mt-5">
+        <h2>Bonbon !</h2>
+        <adress>13 Rue des Ecluses Saint-Martin <br>75010, Paris<br>0810 75 75 75</adress>
+    </footer>
 </body>
 
 </html>
